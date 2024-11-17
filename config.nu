@@ -839,3 +839,5 @@ $env.config = {
         }
     ]
 }
+
+use ./prompt.nu
