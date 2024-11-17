@@ -13,17 +13,17 @@ wget install nushell
 
 ```
 
-- Locate your ´$nu.env-path´
+- Install [Starship](https://starship.rs/guide/#installation)
+
+- Locate your nushell env file
 
 ```nushell
 $nu.env-path
 ```
 
-- Install [Starship](https://starship.rs/guide/#installation)
+- Clone this repo on your local nushell config folder
 
-- Clone this repo and enter
-
-- Create siginificative link from ´starship.toml´ to ´$HOME\.config\starship.toml´
+- Create siginificative link from `starship.toml` to `$HOME\.config\starship.toml`
 
 ```powershell
 New-Item -ItemType SymbolicLink -Path "$HOME\.config\starship.toml" -Target "C:\Users\Usuario\AppData\Roaming\nushell\starship.toml"
